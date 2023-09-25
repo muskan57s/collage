@@ -1,0 +1,69 @@
+#one{
+    border:1px solid rgba(38, 229, 89, 0.8);
+    height:100%;
+    margin:10px;
+    width:70%;
+    line-height:100%;
+
+}
+
+.t{
+    /* background-color: blueviolet; */
+    font-size:30px;
+    border:1px solid rgb(19, 75, 138);
+    color:#00ff;
+    background:-webkit-linear-gradient(yellow,rgb(197, 8, 39));
+}
+
+#first{
+    border:1px solid #00cc;
+    padding:10px 20px;
+    margin:10px;
+    color:rgb(136, 19, 225);
+    background:#00cc44;
+}
+
+#two{
+    height:50vh;
+    border:1px solid #44cc;
+    width:40vh;
+    padding:10px;
+    /* background:-webkit-radial-gradient(green rgb(207, 39, 109)); */
+    font-size:20px;
+    color:rgb(8, 28, 28);
+    font:bolder;
+}
+
+#shape{
+    border:1px solid #00cc;
+    height:40vh;
+    width:50vh;
+    margin:10vh;
+    background:#44dd;
+    border-radius:40%;
+    transition:all 1s cubic-bezier(0.215, 0.610, 0.355, 1);
+    clip-path:polygon(50% 0%,100% 50%,60% 50%,60% 100%,40% 100%,40% 50%,0% 50%);
+
+}
+#shape:hover{
+    background:yellow;
+    transform:rotate(65deg);
+
+}
+
+#shape2{
+    border:1px solid rgb(106, 56, 56);
+    height:50vh;
+    width:50vh;
+    background:-webkit-radial-gradient(rgb(170, 30, 81),green);
+    
+
+}
+
+#my{
+    height:100px;
+    width:100px;
+    border:1px solid #00facc;
+    margin:20px;
+}
+

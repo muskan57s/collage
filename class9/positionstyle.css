@@ -1,0 +1,132 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+    background:#cc22cc;
+}
+
+#one, #two{
+    border:1px solid green;
+}
+
+#two{
+    position:relative;
+    top:30px;
+    left:60px;
+    width:450px;
+
+}
+
+#main{
+    margin-top:100px;
+    border:1px sloid #0fc5c5;
+    width:500px;
+    padding:30px;
+    margin-left:30px;
+    position:relative;
+    /* height:400px; */
+
+}
+#main div{
+    height:50px;
+    width:100px;
+    border:1px solid rgb(3, 3, 16);
+}
+
+#t-div{
+    position:absolute;
+    bottom:0px;
+    right:0px;
+    border:red;
+}
+
+#f-div{
+    position:absolute;
+    top:40px;
+    left:45%;
+}
+
+#demo{
+    position:fixed;
+    top:10px;
+    right:10px;
+    padding:20px;
+    color:#8c2323;
+    border-radius:20px;
+    /* visibility -> 0:(0% visible)not visible |1: 100% visible */
+    opacity:0.7;
+    background:-webkit-linear-gradient(rgb(184, 214, 33),green);
+}
+
+#looks{
+    position:relative;
+    margin:30px;
+     /* vw:view width |vh: view height */
+
+     width:70vw;
+     height:50vh;
+     border:1px solid red;
+}
+
+#looks div:nth-child(1){
+    height:100px;
+    border:0px solid rgb(160, 148, 19);
+    width:100px;
+    position:absolute;
+    top:20%;
+    left:35%;
+    /* border-radius:0%; */
+    opacity:0.6%;
+    z-index:1;
+    background:-webkit-linear-gradient(blue,orange);
+    animation:anim 1s ease-in-out infinite;
+
+}
+
+#looks div:nth-child(2){
+    height:80px;
+    border:1pxsolid #8c2323;
+    width:80px;
+    position:absolute;
+    top:20%;
+    left:35%;
+    border-radius:50%;
+    opacity:0.7%;
+    z-index:1;
+    background:-webkit-radial-gradient(red,orange);
+
+}
+
+/* @keyframes anim{ 
+    from{
+        transform: rotate(0deg);
+    }0
+    to{
+        transform:rotate(360deg);
+    }
+ } */
+
+ @keyframes anim{
+    0%{
+        transform:rotate(0deg);
+    }
+    50%{
+        transform:rotate(300deg);
+    }
+    100%{
+        transform:rotate(0deg);
+    }
+
+ }
+
+ #looks div:nth-child(2){
+    height:100px;
+    border:1px solid blue;
+    width:100px;
+    position:absolute;
+    top:20%;
+    left:50%;
+    opacity:0.9;
+    background:#005511;
+ }

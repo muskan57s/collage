@@ -1,0 +1,75 @@
+#one{
+    margin:100px 100px;
+    height:100px;
+    width: 200px;
+    border:1px solid red;
+    background:linear-gradient(red,green);
+    /* to move the element  */
+    /* transform: translate(200px, 100px); */
+
+    /* transform: rotate(-45deg); */
+    /* skew use to rotate at particular angle */
+    transform:skew(-60deg);
+    box-shadow:25px 25px 28px #740808;
+    /* to set animation effect  */
+    transition: all 2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+/* hover is use to indicate when we put the arrow on the object/text */
+/* translate is used to transfer the element from one place to another along x,y,z-axis */
+#one:hover{
+    transform: rotate(0deg) translate(100px, 200px);
+    background:red;
+    
+}
+
+
+#myshape
+{
+    height:300px;
+    width:200px;
+    border:1px solid rgb(67, 18, 100);
+    margin:100px auto;
+    background:linear-gradient(orange,red);
+    border-radius:50%;
+    transition: all 2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    clip-path: polygon(50% 0%, 100% 100%, 0% 100%);
+    
+}
+
+#myshape:hover{
+    transform: rotate(180deg);
+    background:radial-gradient(green,blue);
+}
+
+
+#shape-2
+{
+   margin-top:100px;
+   height:0px;
+   width:0px;
+   /* background:#0044aa; */
+   border:50px solid rgb(4, 255, 0); 
+   border-top-color: orange;
+   border-bottom-color: #00aacc;
+   border-right-color:transparent; 
+   border-radius:50%;
+   border-left-color:transparent;
+   transition: all 1s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+#shape-2:hover{
+    transform: rotate(360deg);
+}
+
+
+#sum
+{
+   height:400px;
+   width:200px;
+   border:50px solid rgb(4, 255, 0);
+   clip-path: polygon(50% 0%, 100% 50%,60% 50%,60% 100%,40% 100%,40% 50%,0% 50%);
+
+   
+
+}

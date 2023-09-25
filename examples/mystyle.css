@@ -1,0 +1,36 @@
+#one{
+    color:#003366;
+    font-size:30px;
+}
+p{
+    font-size:25px;
+    color:blue;
+}
+section{
+    font-size:25px;
+    color:blueviolet;
+}
+.t{
+    font-size:25px;
+    background-color: aqua;
+    padding :15px;
+    
+}
+#second{
+    /* border style: solid | dotted  */
+    border:5px solid blue;
+    /*create space around the element*/
+    /* margin:20px; */
+
+    /*margin-top:50px;
+    margin-bottom:10px;
+    margin-left:20px;
+    margin-right:30p;*/
+
+    /*1st: top and bottom,2nd:left and right */
+    /* margin:40px 30px; */
+
+    /*to create space between content and border*/
+     padding:-webkit-validation-bubble-text-block;
+
+}

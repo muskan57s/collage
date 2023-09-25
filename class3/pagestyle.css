@@ -1,0 +1,56 @@
+/* All element selector */
+*{
+    margin:0px;
+    padding:0px;
+}
+
+h1{
+    margin:50px 0px;
+}
+
+ul li{
+    /* to remove bullet style */
+    list-style:none;
+    margin-left:20px;
+    width:1050px;
+}
+  /* child selector
+  parent_selector  child_selector
+  {
+
+  }
+   */
+
+#menu li{
+    color:#ccc;
+    border:0px solid #eee;
+    width:200px;
+    height:40px;
+    background:#003366;
+    margin-bottom:15px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px #ccc;
+    float:left;
+    margin-right: 5px;
+
+}
+
+#menu li a{
+    color:#ccc;
+    /* to remove underline */
+    text-decoration:none;
+    /* to cover the element into block level tag*/
+    display:block;
+}
+
+#menu li:hover{
+    background:#509003;
+
+}
+
+p{
+    line-height:30px;
+}
+
