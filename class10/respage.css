@@ -1,0 +1,64 @@
+/* Responsive page generation using breakpoints */
+
+/* For large screen approx 1020px onwards */
+#parent{
+    display:grid;
+    grid-template-columns:1fr 1 fr 1fr;
+    gap:20px;
+
+}
+#parent div{
+    border:1px solid red;
+    height:100px;
+
+}
+
+#m-menu{
+    display:none;
+}
+/* for tablet */
+@media screen and (max-width:780px)
+{
+    #parent{
+        grid-template-columns:1fr 1fr ;
+    }
+    #parent-div{
+        border-radius:50px;
+        padding:20px;
+    }
+    #m-menu{
+        display:block;
+    }
+    #d-menu{
+        display:none;
+    }
+}
+
+/* for mobile */
+@media screen and (max-width:640px)
+{
+    #parent{
+        grid-template-columns:1fr;
+    }
+}
+
+#p-image{
+    display:relative;
+    height:300px;
+    width:200px;
+    background:url(flowers-276014_1280.jpg);
+    background-size:cover;
+    background-position:center;
+    margin:40px;
+    /* background-repeat:no-repeat; */
+}
+
+#d-image{
+    display:relative;
+    height:300px;
+    width:400px;
+    background:url(1679469307301.jpg);
+    background:cover;
+    background-position:center;
+    margin:60px;
+}
