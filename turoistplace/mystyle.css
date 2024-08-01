@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding:0;
+    background:url();
+    box-sizing:border-box;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+header{
+    background:url(c:\Users\HP\Downloads\night.png);
+    background-position: center;
+    background-size:cover;
+    height:100vh;
+}
+
+ #nav-1{
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(248, 75, 217);
+    cursor:pointer;
+}
+.bar ul{
+    flex:1;
+    text-align:right;
+
+}
+#nav-1 span{
+    color:rgb(77, 117, 212);
+
+}
+.whole{
+    height:980px;
+    width:860px;
+    box-shadow:0 0 6px #00af;
+    background:url(c:\Users\HP\Downloads\night.png);
+    background-position: center;
+    background-size:cover;
+    display: flex;
+
+
+}
+.bar{
+
+}
+
+.bar ul li a{
+    text-decoration: none;
+    display:inline-block;
+    list-style:none;
+    text-align:right;
+
+
+}
